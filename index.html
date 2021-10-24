@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Video</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+
+    <body>
+        
+        
+        <div class="container">
+
+            <video id="video" src="./assets/bird.mp4" class="video">
+
+            </video>
+
+            <div class="controle">
+                <img onclick="backward()" class="btn" src="./assets/bwd.png">
+                <img onclick="decrease()" class="btn" src="./assets/minus.png">
+                <!-- <img class="btn" src="./assets/pause.png"> -->
+                <img onclick="stop()" class="btn" src="./assets/stop.png">
+                <img onclick="play()" id="play" class="btn" src="./assets/play.png">
+                <img onclick="increase()" class="btn" src="./assets/plus.png">
+                <img onclick="forward()" class="btn" src="./assets/fwd.png">
+            </div>
+
+        </div>
+
+
+
+
+
+        <script src="./script.js"></script>
+    </body>
+</html>
